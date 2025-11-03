@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  csci395_ios_midterm
 //
-//  Created by Sue Sui on 11/2/25.
+//  Created by Xin(Sue) Sui on 11/2/25.
 //
 
 import UIKit

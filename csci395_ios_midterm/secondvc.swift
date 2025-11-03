@@ -2,7 +2,7 @@
 //  secondvc.swift
 //  csci395_ios_midterm
 //
-//  Created by Sue Sui on 11/2/25.
+//  Created by Xin(Sue) Sui on 11/2/25.
 //
 
 import UIKit
@@ -17,7 +17,6 @@ struct ImageItem {
     var imageName: String
     var title: String
 }
-
 
 
 class secondvc: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -61,7 +60,6 @@ class secondvc: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         // determines what kind of cell to display + whatever custom configuration to make on the cell
@@ -89,10 +87,8 @@ class secondvc: UIViewController, UITableViewDelegate, UITableViewDataSource {
             // Notify the delegate (first screen)
             delegate?.didSelectImage(selectedImage)
         }
-        
         // Dismiss this screen
         dismiss(animated: true, completion: nil)
     }
-
 
 }
