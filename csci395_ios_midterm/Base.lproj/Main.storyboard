@@ -17,13 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kUZ-tB-Opt">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="837"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="kUZ-tB-Opt" secondAttribute="height" multiplier="100:213" id="jZi-mF-yV4"/>
-                                </constraints>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uah-tY-kV1">
-                                <rect key="frame" x="81.666666666666686" y="401" width="230" height="35"/>
+                                <rect key="frame" x="81.666666666666686" y="408.66666666666669" width="230" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Change Background Image">
                                     <backgroundConfiguration key="background">
@@ -48,9 +45,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Uah-tY-kV1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1UU-jL-ADZ"/>
-                            <constraint firstItem="kUZ-tB-Opt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9N6-ib-mOb"/>
                             <constraint firstAttribute="bottom" secondItem="kUZ-tB-Opt" secondAttribute="bottom" id="9O3-AG-BAI"/>
-                            <constraint firstItem="kUZ-tB-Opt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bex-KA-aLS"/>
                             <constraint firstItem="kUZ-tB-Opt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="H54-s6-I7L"/>
                             <constraint firstItem="XkA-RV-Nu5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="50" id="NK0-uc-7PD"/>
                             <constraint firstItem="kUZ-tB-Opt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VaJ-M6-ZaS"/>
