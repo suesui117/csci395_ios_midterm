@@ -7,7 +7,7 @@
 
 import UIKit
 
-
+// this protocal is called in first screen, fulfills 7a.
 protocol SecondVCDelegate: AnyObject {
     func didSelectImage(_ image: UIImage)
 }
@@ -50,7 +50,11 @@ class secondvc: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     
-    
+    /* 3 functions here:
+    a.    numberOfRowsInSection
+    b.    cellForRowAt
+    c.    DidSelectRowAt
+     */
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return myImages.count // we are rendering the len() of myImages
@@ -75,6 +79,7 @@ class secondvc: UIViewController, UITableViewDelegate, UITableViewDataSource {
             
         return cell
     }
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         // Get the selected image
